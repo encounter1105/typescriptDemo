@@ -2,13 +2,13 @@ let notSure:any = 666;
 notSure = "taiji";
 notSure = false ;
 
-// let value:any;
+let value:any;
 
-// value.foo.bar ;   // ok
-// value.trim();   // OK
-// value();   // OK
-// new value();   // OK
-// value[0][1];   // OK
+value.foo.bar ;   // ok
+value.trim();   // OK
+value();   // OK
+new value();   // OK
+value[0][1];   // OK
 
 
 //  unknown 类型 
@@ -36,7 +36,7 @@ notSure = false ;
 // let value7: any[] = value; // Error
 // let value8: Function = value; // Error
 
-let value: unknown;
+// let value: unknown;
 
 // value.foo.bar; // Error
 // value.trim(); // Error

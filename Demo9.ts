@@ -44,7 +44,7 @@ const screenResume = (interviewee:Interviewee) => {
 const getResume=(interviewee:Teacher)=>{
     console.log(interviewee.name+'年龄是：'+interviewee.age)
     console.log(interviewee.name+'学历是：'+interviewee.enducation)
-    // console.log(interviewee.teach())
+    console.log(interviewee.teach())
     interviewee.sex && console.log(interviewee.name+'性别是：'+interviewee.sex)
 }
 getResume(interviewee)

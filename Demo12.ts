@@ -16,8 +16,8 @@
 //     }
 // }
 
-// // const person = new Person('taiji')
-// // console.log(person.name)
+// const person = new Person('taiji')
+// console.log(person.name)
 // class Teacher extends Person{
 //     constructor(public age:number){
 //         super('taiji')

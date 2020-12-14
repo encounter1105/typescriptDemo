@@ -24,15 +24,15 @@
 //   }
 // }
 
-// // // const selectGirl = new SelectGirl(["小红", "小花", "小美"]);
+// const selectGirl = new SelectGirl(["小红", "小花", "小美"]);
 // // // 实例化的时候对泛型的值确定
-// const selectGirl = new SelectGirl()<string> ["小红", "小花", "小美"];
+// const selectGirl = new SelectGirl()< string > ["小红", "小花", "小美"];
 // console.log(selectGirl.getGirl(1));
 
 // 泛型中的继承
-// interface Girl {
-//   name: string;
-// }
+interface Girl {
+  name: string;
+}
 
 // class SelectGirl<T extends Girl> {
 //   constructor(private girls: T[]) {}
@@ -56,7 +56,7 @@ class SelectGirl<T extends number | string> {
   }
 }
 
-const selectGirl = new SelectGirl<string>(["小红", "小花", "小美"]);
-console.log(selectGirl.getGirl(1));
+// const selectGirl = new SelectGirl<string>(["小红", "小花", "小美"]);
+// console.log(selectGirl.getGirl(1));
 
 

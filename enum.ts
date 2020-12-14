@@ -47,18 +47,19 @@
 //     }
 //   }
   
-//   const result = getServe(Status.SHOW);
+// //   const result = getServe(Status.SHOW);
+//   const result = getServe(1);
   
 //   console.log(`我要去${result}`);
 // 枚举类型的对应值
 // const result = getServe(1);
 
 // 默认不从0开始 从1开始
-// enum Status {
-//     EAT = 1,
-//     SHOW,
-//     EATSHOW,
-//   }
+enum Status {
+    EAT = 1,
+    SHOW,
+    EATSHOW,
+  }
 
 // 通过下标反查
-// console.log(Status.MASSAGE, Status[1]);
+console.log(Status.EAT, Status[1]);

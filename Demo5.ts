@@ -1,13 +1,13 @@
-// function getTotal2(one:number,two:number) :number {
-//     return one + two 
-// }
+function getTotal2(one:number,two:number) :number {
+    return one + two 
+}
 
-// const total2 : number  = getTotal(1,2)
+const total2 = getTotal2(1,2)
 
-// function sayHello() : void{
-//     console.log('Hello World')
-//     // return ''
-// }
+function sayHello() : void{
+    console.log('Hello World')
+    // return ''
+}
 
 // never返回值类型   如果一个函数是永远也执行不完的，就可以定义返回值为never
 
@@ -32,11 +32,11 @@
 // const total = add({one:1,two:2})
 
 // 传递的参数事一个对象的正确写法 
-// function add({one,two} : {one:number,two:number}) {
-//     return one + two
-// }
+function add({one,two} : {one:number,two:number}) {
+    return one + two
+}
 
-// const total = add({one:1,two:2})
+const total = add({one:1,two:2})
 
 // 传递的对象参数只有一个的情况 
 function getNumber({one}:{one:number}) {

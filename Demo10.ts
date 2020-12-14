@@ -28,3 +28,4 @@ console.log(goddess1.sayHello());
 console.log(goddess1.sayHi());
 
 
+

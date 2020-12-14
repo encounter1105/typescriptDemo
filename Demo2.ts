@@ -1,5 +1,5 @@
 let count : number = 1;
-//count 继承了number上面的所有树形和方法 
+//count 继承了number上面的所有属性和方法 
 
 interface People {
     uname: string,
